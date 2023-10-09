@@ -1,0 +1,255 @@
+.board-name{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+    top: -10px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+}
+.backArrow{
+    font-size: 28px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.right-header{
+    display: flex;
+    align-items: center;
+    color:#B0B0B0;
+}
+.right-header-bar{
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 25px;
+}
+.search-post{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 25px;
+    top: 2px;
+    cursor: pointer;
+}
+.bookMark-post{
+    cursor: pointer;
+}
+.posts-container{
+    width: 100%;
+    min-height: 90vh;
+}
+.postsBody{
+    width: 100%;
+    min-height: 90vh;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    background-color: #EBFCFF;
+    padding-bottom: 50px;
+}
+.postTopPart{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullPopUpPost{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000bb;
+    z-index: 4;
+    position: fixed;
+}
+.addPost{
+    width: 458px;
+    height: 530px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    z-index: 3;
+    padding: 20px 30px;
+    border-radius: 8px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+}
+.plusSignPost{
+    margin-right: 10px;
+    font-size: 24px;
+}
+.create-post{
+    display: inline-block;
+    width: 188px;
+    height: 40px;
+    padding: 13px 16px;
+    background: #D33852;
+    border-radius: 8px;
+    color: white;
+    border:none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.emptyPage{
+    width: 100%;
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.emptyPage img{
+    width: 270px;
+    height: 270px;
+}
+.emptyPage p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.createPostText{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.subject-post{
+    margin-top: 20px;
+    padding-bottom: 44px;
+    border-bottom: 1px solid #dedddd;
+    
+}
+.paraPost{
+    font-size: 14px;
+}
+.inputPostName{
+    margin-top: 10px;
+    width: 98%;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #dedddd;
+    border-radius: 8px;
+}
+.import-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
+
+}
+.imagePreview{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+.addImagebtn{
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid #dedddd;
+    display: flex;
+    align-items: center;
+    color: #717171;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.imgAdd{
+    margin-right: 5px;
+    font-size: 18px;
+}
+.post-desc-text{
+    font-size: 16px;
+    margin-top: 35px;
+    color: #222222;
+}
+.posts-collection{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    
+    flex-wrap: wrap;
+}
+/* --------------------- Single post -----------------------*/
+
+.post-container{
+    width: 275px;
+    /* height: 577px; */
+    background-color: white;
+    padding: 16px;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.post-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bookMark-post{
+    margin-right: 10px;
+}
+.postTitle h1{
+    font-size: 20px;
+}
+.postOptions{
+    display: flex;
+    align-items: center;
+}
+.SinglepostBody{
+    background-color: white;
+    position: relative;
+    padding-bottom: 20px;
+}
+.SinglepostBody img{
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.post-desc{
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.like-count{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.SinglePostLikeBottom{
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dedddd;
+}
+
+.postOptions .checked{
+    color: #FFBB33;
+}
+.checked{
+    color: #FFBB33;
+}
+
+.search-post input{
+    position: relative;
+    font-size: 18px;
+    padding: 10px 23px ;
+    outline: none;
+    border: 0;
+    border:1px solid #EBEBEB;
+    border-radius: 8px;
+    margin-right: 0;
+    background-color: transparent;
+    left: -25px;
+    padding-left: 40px;
+    
+}
